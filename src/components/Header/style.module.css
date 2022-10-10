@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 1em 2em;
+}
+
+.first_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    display: flex;
+    gap: 3em;
+
+}
+
+.btn {
+    border: 2px solid #ffe1d0;
+    background-color: black;
+    color: #ffe1d0;
+    padding: 10px 80px;
+}
+
+.btn:hover {
+    border: 2px solid #ffe1d0;
+    background-color: #ffe1d0;
+    color: black;
+    padding: 10px 80px;
+}
+
+.subtitle {
+    border: 2px solid #ffe1d0;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 40px;
+
+}
+

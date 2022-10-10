@@ -1,0 +1,25 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/image": "^0.9.3",
+    "@astrojs/react": "^1.2.0",
+    "@types/react": "^18.0.21",
+    "astro": "^1.4.7",
+    "embla-carousel-autoplay": "^7.0.3",
+    "embla-carousel-react": "^7.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sharp": "^0.31.1",
+    "swiper": "^8.4.3"
+  }
+}
